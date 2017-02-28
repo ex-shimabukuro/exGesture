@@ -1,0 +1,72 @@
+/* html,body�ｿｽ^�ｿｽO�ｿｽﾌ設抵ｿｽ */
+html, body{
+	margin: 0;	/* �ｿｽ]�ｿｽ�ｿｽ�ｿｽﾌ削除 */
+	padding: 0;	/* �ｿｽ]�ｿｽ�ｿｽ�ｿｽﾌ削除 */
+	height: 100%;	/* �ｿｽc�ｿｽﾌ搾ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ100% */
+	width: 100%;	/* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ�ｿｽ�ｿｽ100% */
+}
+/* �ｿｽS�ｿｽﾌゑｿｽ�ｿｽﾍゑｿｽ�ｿｽ�ｿｽg */
+div#contents {
+	background-color: #999;
+	position: relative;		/* �ｿｽt�ｿｽb�ｿｽ^�ｿｽ[�ｿｽ�ｿｽ�ｿｽﾌ配�ｿｽu�ｿｽp�ｿｽﾉ抵ｿｽ` */
+	min-height: 100%;		/* �ｿｽc�ｿｽﾌ表�ｿｽ�ｿｽ�ｿｽﾌ茨ｿｽ�ｿｽ100% */
+}
+/* �ｿｽw�ｿｽb�ｿｽ_�ｿｽ[�ｿｽﾌ背�ｿｽi */
+div#header-bk {
+	background-color:#444;  /* �ｿｽw�ｿｽi�ｿｽF(�ｿｽ�ｿｽ) */
+	padding:10px 0 0;       /* �ｿｽ繧ｩ�ｿｽ�ｿｽ10px�ｿｽ�ｿｽ�ｿｽ]�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+	height:120px;           /* �ｿｽc�ｿｽﾌ搾ｿｽ�ｿｽ�ｿｽ140px */
+	width:100%;             /* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ�ｿｽ�ｿｽ100% */
+}
+/* �ｿｽw�ｿｽb�ｿｽ_�ｿｽ[�ｿｽﾌ表�ｿｽ�ｿｽ�ｿｽﾌ茨ｿｽ */
+div#header {
+	height: 100px;  /* �ｿｽc�ｿｽﾌ表�ｿｽ�ｿｽ�ｿｽﾌ茨ｿｽ120px */
+	width: 970px;   /* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ970px */
+	margin: auto;   /* �ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+}
+/* �ｿｽ{�ｿｽf�ｿｽB */
+/* �ｿｽ{�ｿｽf�ｿｽB�ｿｽﾌ托ｿｽg */
+div#body-bk{
+	width: 970px;            /* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ970px */
+	margin: 10px auto 0;     /* �ｿｽ繧ｩ�ｿｽ�ｿｽ10px�ｿｽ�ｿｽ�ｿｽ]�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+	padding-bottom: 100px;   /* �ｿｽt�ｿｽb�ｿｽ^�ｿｽ[�ｿｽﾌ搾ｿｽ�ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ�ｿｽ]�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+}
+
+/* �ｿｽt�ｿｽb�ｿｽ^�ｿｽ[�ｿｽﾌ背�ｿｽi */
+div#footer-bk
+{
+	background-color: #444;   /* �ｿｽw�ｿｽi�ｿｽF(�ｿｽ�ｿｽ) */
+	width:100%;               /* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ�ｿｽ�ｿｽ100% */
+	height: 60px;            /* �ｿｽc�ｿｽﾌ包ｿｽ�ｿｽ�ｿｽ120px */
+	position: absolute;       /* �ｿｽ�ｿｽﾎ位置�ｿｽw�ｿｽ閧ｷ�ｿｽ驍ｱ�ｿｽﾆゑｿｽ�ｿｽ` */
+	bottom: 0px;              /* �ｿｽ�ｿｽﾎ位置�ｿｽw�ｿｽ�ｿｽ(�ｿｽ�ｿｽ0px,�ｿｽ�ｿｽ0px) */
+	padding: 10px 0;          /* �ｿｽ繪ｺ�ｿｽﾉ余�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+}
+/* �ｿｽt�ｿｽb�ｿｽ^�ｿｽ[�ｿｽﾌ表�ｿｽ�ｿｽ�ｿｽﾌ茨ｿｽ */
+div#footer{
+	height: 40px;          /* �ｿｽc�ｿｽ�ｿｽ�ｿｽﾌ指�ｿｽ�ｿｽ100px */
+	width: 970px;           /* �ｿｽ�ｿｽ�ｿｽﾌ包ｿｽ970px */
+	margin: auto;           /* �ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ�ｿｽ */
+}
+
+div#judge{
+	text-align:center;
+}
+div#timeStr{
+	text-align:center;
+}
+div#countDown{
+	text-align:center;
+	color: #ff0080;
+	font-size: 60px;
+	font-family:Comic Sans MS;
+}
+div#odai{
+	text-align:center;
+	font-size: 60px;
+}
+div#result{
+	text-align:center;
+	font-size: 50px;
+	font-family:Comic Sans MS;
+}

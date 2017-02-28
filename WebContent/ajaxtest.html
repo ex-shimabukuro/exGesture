@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>TEST JSON</title>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+			type : "GET",
+			url : "http://localhost:8080/GestureGame/getData",
+			dataType : "json",
+			success : function(json) {
+				alert("success!!");
+				alert(json);
+			},
+
+			error : function(XMLHttpRequest, textStatus, errorThrown) {
+				alert("エラーが発生しました：" + textStatus + ":\n" + errorThrown);
+			}
+		});
+	});
+</script>
+</head>
+
+<body>
+</body>
+</html>

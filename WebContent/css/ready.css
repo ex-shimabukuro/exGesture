@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+div#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: auto;
+}
+
+h1 {
+	color: #616161 ;
+	font-family: 'Bevan', serif;
+	font-size: 45px ;
+	background: #3b3b3b ;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6), -1px -1px 1px rgba(255, 255, 255, 0.5);
+	background: linear-gradient(transparent 60%, #ffff66 60%);
+}

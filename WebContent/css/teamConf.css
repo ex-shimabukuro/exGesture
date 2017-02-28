@@ -1,0 +1,71 @@
+h1 {
+	color: #616161 ;
+	font-family: 'Bevan', serif;
+	font-size: 45px ;
+	background: #3b3b3b ;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6), -1px -1px 1px rgba(255, 255, 255, 0.5);
+	background: linear-gradient(transparent 60%, #ffff66 60%);
+}
+
+p {
+	font-family: 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic Pro', Meiryo, Osaka, 'MS PGothic', sans-serif;
+	font-size: 25px ;
+}
+
+#teamInfoForm {
+  width: auto;
+  border-spacing: 0;
+  font-size:20px;
+}
+#teamInfoForm th {
+  color: #fff;
+  padding: 8px 15px;
+  background: #258;
+  background:-moz-linear-gradient(rgba(34,85,136,0.7), rgba(34,85,136,0.9) 50%);
+  background:-webkit-gradient(linear, 100% 0%, 100% 50%, from(rgba(34,85,136,0.7)), to(rgba(34,85,136,0.9)));
+  font-weight: bold;
+  border-left:1px solid #258;
+  border-top:1px solid #258;
+  border-bottom:1px solid #258;
+  line-height: 120%;
+  text-align: center;
+  text-shadow:0 -1px 0 rgba(34,85,136,0.9);
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+}
+#teamInfoForm th:first-child {
+  border-radius: 5px 0 0 0;
+}
+#teamInfoForm th:last-child {
+  border-radius:0 5px 0 0;
+  border-right:1px solid #258;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1),0px 1px 1px rgba(255,255,255,0.3) inset;
+}
+#teamInfoForm tr td {
+  padding: 8px 15px;
+  border-bottom: 1px solid #84b2e0;
+  border-left: 1px solid #84b2e0;
+  text-align: center;
+}
+#teamInfoForm tr td:last-child {
+  border-right: 1px solid #84b2e0;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+#teamInfoForm tr {
+  background: #fff;
+}
+#teamInfoForm tr:nth-child(2n+1) {
+  background: #f1f6fc;
+}
+#teamInfoForm tr:last-child td {
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+#teamInfoForm tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+#teamInfoForm tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+#teamInfoForm tr:hover {
+  background: #bbd4ee;
+  cursor:pointer;
+}
