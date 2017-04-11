@@ -16,7 +16,7 @@
 		<br>
 		<br>
 
-		<a class="button" href="http://localhost:8080/GestureGame/gameStart">
+		<a class="button" href="http://localhost:8080/exGesture/gameStart">
 			<span>!!Start!!</span> <span>Are You Ready??</span>
 		</a>
 	</div>

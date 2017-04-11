@@ -107,7 +107,7 @@ window.onload = function () {
 function getOdaiData() {
 	$.ajax({
 		type : "GET",
-		url : "http://localhost:8080/GestureGame/getData",
+		url : "http://localhost:8080/exGesture/getData",
 		dataType : "json",
 		success : function(json) {
 

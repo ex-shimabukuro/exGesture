@@ -78,7 +78,8 @@
 				<input type="hidden" id="odaiNo" name="odaiNo">
 			</div>
 			<p>
-				<input id="submitBtn" type="submit" value="決定!!" onclick="return mySubmit('teamInfoForm', 'ready', 'POST');">
+				<input id="submitBtn" type="submit" value="決定!!"
+				 onclick="return mySubmit('teamInfoForm', 'ready', 'POST');">
 			</p>
 		</div>
 	</form>

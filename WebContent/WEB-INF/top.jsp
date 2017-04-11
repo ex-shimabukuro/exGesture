@@ -14,7 +14,7 @@
 		<hr>
 		<br><br>
 		<div id="game">
-			<a class="button" href="http://localhost:8080/GestureGame/teamConf">
+			<a class="button" href="http://localhost:8080/exGesture/teamConf">
 				<span>ゲーム開始</span> <span>ジェスチャーゲーム</span>
 			</a>
 		</div>
